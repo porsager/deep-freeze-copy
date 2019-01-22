@@ -1,11 +1,10 @@
 {
   "name": "deep-freeze-copy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Takes an object and returns a deeply frozen copy",
-  "main": "index.cjs.js",
+  "main": "index.legacy.js",
   "module": "index.js",
-  "browser": "index.browser.js",
   "author": "Rasmus Porsager <rasmus@porsager.com>",
-  "repository": "porsager/bss",
+  "repository": "porsager/deep-freeze-copy",
   "license": "WTFPL"
 }

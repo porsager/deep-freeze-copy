@@ -1,4 +1,4 @@
-window.deepFreezeCopy = function deepFreezeCopy(o) {
+;function deepFreezeCopy(o) {
   return Object.freeze(
     Object.keys(o).reduce((acc, key) => (
       acc[key] = typeof o[key] === 'object' && o[key] !== null
@@ -10,3 +10,6 @@ window.deepFreezeCopy = function deepFreezeCopy(o) {
     ), Array.isArray(o) ? [] : {})
   )
 }
+typeof module !== 'undefined'
+  ? module.exports = deepFreezeCopy
+  : window.deepFreezeCopy = deepFreezeCopy;
