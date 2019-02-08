@@ -1,6 +1,6 @@
 {
   "name": "deep-freeze-copy",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Takes an object and returns a deeply frozen copy",
   "main": "index.legacy.js",
   "module": "index.js",
